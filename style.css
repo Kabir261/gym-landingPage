@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+.top-1 {
+  margin-top: 80px;
+}
+.top-2 {
+  margin-top: 120px;
+}
+.bg-color {
+  background-color: rgb(214, 9, 9);
+}
+
+/* Nav-Section */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.link-list {
+  display: flex;
+}
+
+.link-list a:hover {
+  color: black;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: rgb(214, 9, 9);
+}
+ul {
+  list-style: none;
+}
+
+.link-list li {
+  margin-right: 25px;
+  font-size: 30px;
+}
+
+/* Home-Page */
+.main {
+  background-color: #ffffff;
+  box-shadow: 10px 8px 8px #ffffff;
+  padding: 2rem;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-content {
+  flex-basis: 40%;
+}
+.home-content a {
+  text-decoration: none;
+  border: 2px solid rgb(214, 9, 9);
+  color: rgb(214, 9, 9);
+  font-size: 20px;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+.home-content a:hover {
+  background-color: rgb(214, 9, 9);
+  color: #ffffff;
+}
+.home-content h1 {
+  font-size: 40px !important;
+  color: rgb(214, 9, 9);
+}
+
+.home-content p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.video {
+  flex-basis: 40%;
+}
+
+.gym-video {
+  width: 500px;
+  float: right;
+}
+
+/* SEVICES */
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+.image-service {
+  flex-basis: 40%;
+}
+.service-content {
+  flex-basis: 40%;
+}
+.services-img {
+  width: 400px;
+}
+
+.service-content h1 {
+  font-size: 40px !important;
+  color: rgb(214, 9, 9);
+}
+
+.service-content ul {
+  list-style: disc;
+}
+
+.service-content li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Contact Us */
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content {
+  flex-basis: 40%;
+}
+
+.contact-content h1 {
+  font-size: 40px !important;
+  color: rgb(214, 9, 9);
+}
+.contact-content p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.contact-form {
+  flex-basis: 40%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form button {
+  border: 2px solid rgb(214, 9, 9);
+  color: rgb(214, 9, 9);
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 1rem;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.form button:hover {
+  background-color: rgb(214, 9, 9);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.input-list {
+  width: 500px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid rgb(214, 9, 9);
+  border-radius: 20px;
+}

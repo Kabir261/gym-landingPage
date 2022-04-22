@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fitness Factory</title>
+  </head>
+
+  <body>
+    <div class="navBar container">
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="" class="logo" />
+      </div>
+      <div class="nav-links">
+        <ul class="link-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services-page">About</a></li>
+          <li><a href="#contact-page">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="container" />
+
+    <!-- HOME PAGE -->
+    <div class="main container top-1">
+      <div class="home">
+        <div class="home-content">
+          <h1>Fitness Factory</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi,
+            ipsum tempora in optio harum consectetur quidem porro ex veniam
+            asperiores facere autem repudiandae?
+          </p>
+          <a href="#">Explore Plans</a>
+        </div>
+        <div class="video">
+          <video
+            src="images/video.mp4"
+            autoplay
+            muted
+            loop
+            class="gym-video"
+          ></video>
+        </div>
+      </div>
+
+      <div class="services top-2" id="services-page">
+        <div class="image-service">
+          <img src="images/services.jpg" class="services-img" alt="" />
+        </div>
+        <div class="service-content">
+          <h1>Our Services</h1>
+          <ul>
+            <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact top-2" id="contact-page">
+        <div class="contact-content">
+          <h1>Contact Us</h1>
+          <p>You can contact us, by filling the contact form on the right.</p>
+        </div>
+        <div class="conatct-form">
+          <form action="/" class="form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-list"
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-list"
+              placeholder="Email Id"
+            />
+            <input
+              type="text"
+              name="number"
+              id="number"
+              class="input-list"
+              placeholder="Contact Number"
+            />
+            <textarea
+              name="message"
+              id="message"
+              class="input-list"
+              cols="10"
+              rows="10"
+              placeholder="Enter your message"
+            ></textarea>
+            <button type="submit" class="submitBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="container top-1" style="text-align: center">
+      <h3 style="color: rgb(214, 9, 9)">
+        Copyright &copy; www.fitnessfactory.com|All rights reserved!
+      </h3>
+    </footer>
+  </body>
+</html>
